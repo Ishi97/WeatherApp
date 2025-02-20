@@ -21,7 +21,7 @@ A simple **React** single-page application (SPA) that displays weather data usin
 
 5. **Production-Ready Setup**  
    - Separate server for handling API calls.
-
+  
 ---
 
 ## Project Structure
@@ -44,7 +44,8 @@ A simple **React** single-page application (SPA) that displays weather data usin
     - `package.json` – Server dependencies and scripts
   - `App.js` – Root application component
   - `index.js` – React entry point
-  - `.env` – Environment file (contains API keys)  
+  - `.env` – Environment file (contains API keys)
+ 
 ---
 
 ## Installation 
@@ -61,14 +62,29 @@ Follow these steps to set up and run the application on your local machine:
      
 		 npm install
    
-4. **Run the appliaction**
+4. **Environment Variable**
+   
+     Place the given API key in .env
+   
+		 REACT_APP_API_KEY=YOUR_API_KEY_HERE
+      
+6. **Run the application**
 
 	Open a terminal window and run the server:
 
-	```bash
 	   node server.js
+ 
+      Open a another terminal window and run the application:
+   
+	   npm start
 
- In another terminal window to run app:
+ 
+## Screenshot 
+<img src="https://github.com/user-attachments/assets/08f83e4b-bfa0-43a1-9b31-e0c610d9d676" alt="App Screenshot" width="400"/>
 
-```bash
-       npm start
+<img src="https://github.com/user-attachments/assets/7329ca74-b876-4cc0-93bd-97d8f8381b04" alt="App Screenshot" width="400"/>
+
+<img src="https://github.com/user-attachments/assets/3d67b062-db89-4b55-853b-e732541242cd" alt="App Screenshot" width="400"/>
+
+<img src="https://github.com/user-attachments/assets/7d633e23-9e9a-45b2-8453-8d4ad8303a42" alt="App Screenshot" width="400"/>
+
