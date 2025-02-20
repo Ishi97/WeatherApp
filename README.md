@@ -22,7 +22,7 @@ A simple **React** single-page application (SPA) that displays weather data usin
 5. **Production-Ready Setup**  
    - Separate server for handling API calls.
   
----
+
 
 ## Project Structure
 
@@ -47,13 +47,7 @@ A simple **React** single-page application (SPA) that displays weather data usin
   - `.env` – Environment file (contains API keys)
   - `babel.config.json` - Configuration uses @babel/preset-env and @babel/preset-react to transpile modern JavaScript and JSX syntax for browser compatibility.
 
-
-
-
-
-
  
----
 
 ## Installation 
 
@@ -79,14 +73,17 @@ Follow these steps to set up and run the application on your local machine:
 
 	Open a terminal window and run the server:
 
+	**Server API Endpoint:** - `http://localhost:4000/api/weather/city` – This is the URL structure to fetch weather 	data for a specified city.
+
 	   node server.js
  
       Open a another terminal window and run the application:
    
 	   npm start
 
+
  
-## Screenshot 
+## Application Screenshot 
 <img src="https://github.com/user-attachments/assets/08f83e4b-bfa0-43a1-9b31-e0c610d9d676" alt="App Screenshot" width="400"/>
 
 <img src="https://github.com/user-attachments/assets/7329ca74-b876-4cc0-93bd-97d8f8381b04" alt="App Screenshot" width="400"/>
