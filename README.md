@@ -17,7 +17,7 @@ A simple **React** single-page application (SPA) that displays weather data usin
    - Shows an error message if the city name is invalid or not found.
 
 4. **SCSS Preprocessing**  
-   - Uses SCSS for styling. SCSS files are compiled to CSS and then used in the application.
+   - SCSS files are compiled to CSS and then CSS is converted to the min.css.
 
 5. **Production-Ready Setup**  
    - Separate server for handling API calls.
@@ -45,6 +45,13 @@ A simple **React** single-page application (SPA) that displays weather data usin
   - `App.js` – Root application component
   - `index.js` – React entry point
   - `.env` – Environment file (contains API keys)
+  - `babel.config.json` - Configuration uses @babel/preset-env and @babel/preset-react to transpile modern JavaScript and JSX syntax for browser compatibility.
+
+
+
+
+
+
  
 ---
 
