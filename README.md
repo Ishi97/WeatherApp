@@ -45,9 +45,6 @@ A simple **React** single-page application (SPA) that displays weather data usin
   - `App.js` – Root application component
   - `index.js` – React entry point
   - `.env` – Environment file (contains API keys)  
-   
-**Note**: The .env file is included for demo/testing purposes only. It should not be pushed to the repository to protect any sensitive information (e.g., API keys).env is listed in the .gitignore file.
-
 ---
 
 ## Installation 
@@ -71,7 +68,7 @@ Follow these steps to set up and run the application on your local machine:
 	```bash
 	   node server.js
 
-In another terminal window, run:
+ In another terminal window to run app:
 
 ```bash
-npm start
+       npm start
